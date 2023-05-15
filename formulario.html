@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Formulário </title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend><br>
+            <label for="nome">Nome: </label>
+            <input type="text" name="email"><br>
+            <label for="dia">Nascimento: </label>
+            <input type="date" name="dia"><br>
+            <label for="sexo">Sexo: </label>
+            <input type="radio" name="sexo" value="1" /> Feminino
+            <input type="radio" name="sexo" value="2" /> Masculino
+            <input type="radio" name="sexo" value="3" /> Prefiro não informar
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="logradouro">Logradouro:</label>
+            <input type="text" name="logradouro"><br>
+            <label for="bairro">Bairro: </label>
+            <input type="text" name="bairro"><br>
+            <label for="cidade">Cidade: </label>
+            <input type="text" name="cidade"><br><br>
+            <label for="uf">UF:</label>
+            <select name="uf">
+                <option value="df">DF</option>
+                <option value="go">GO</option>
+                <option value="rj">RJ</option>
+                <option value="sp">SP</option>
+            </select>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Contatos</legend>
+            <label for="email">E-mail: </label>
+            <input type="text" name="email">
+
+        </fieldset>
+        <input type="submit">
+        <input type="reset" value="Limpar">
+        <br>
+        <br>
+    </form>
+    <a class="volte" href="index.html">Voltar para página inicial</a>
+</body>
+
+</html>
